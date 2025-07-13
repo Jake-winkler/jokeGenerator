@@ -16,7 +16,7 @@ function queryJoke (){
 
                    joke.innerText=data.value;
                 }else{
-                    console.log('not funny');
+                    console.log('Something when wrong (not funny)!!!');
                 }
         }
         
@@ -33,3 +33,4 @@ function queryJoke (){
 
 
 generateButton.addEventListener('click', queryJoke);
+document.addEventListener('DOMContentLoaded', queryJoke);
